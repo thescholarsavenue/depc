@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>DepC Stats | The Scholars' Avenue</title>
+		<meta name="description" content="chart created using amCharts live editor" />
+
+		<!-- amCharts javascript sources -->
+		<script src="jschart.js" type="text/javascript"></script>
+		<script src="http://www.amcharts.com/lib/3/serial.js" type="text/javascript"></script>
+
+		<!-- amCharts javascript code -->
+		<script type="text/javascript">
+			AmCharts.makeChart("chartdiv2",
+				{
+					"type": "serial",
+					"categoryField": "category",
+					"startDuration": 1,
+					"categoryAxis": {
+						"gridPosition": "start"
+					},
+					"trendLines": [],
+					"graphs": [
+						{
+							"balloonText": "[[title]] of [[category]]:[[value]]",
+							"fillAlphas": 1,
+							"id": "AmGraph-1",
+							"labelText": "[[value]]",
+							"title": "Minimum CG",
+							"type": "column",
+							"valueField": "column-1"
+						}
+					],
+					"guides": [],
+					"valueAxes": [
+						{
+							"id": "ValueAxis-1",
+							"title": "Minimum CG"
+						}
+					],
+					"allLabels": [],
+					"balloon": {},
+					"legend": {
+						"useGraphSettings": true
+					},
+					"titles": [
+						{
+							"id": "Title-1",
+							"size": 15,
+							"text": "Department-wise minimum CG"
+						}
+					],
+					"dataProvider": [
+						{
+							"category": "CS",
+							"column-1": "9.67"
+						},
+						{
+							"category": "CSD",
+							"column-1": "9.62"
+						},
+						{
+							"category": "EC",
+							"column-1": "9.51"
+						},
+						{
+							"category": "ECD",
+							"column-1": "9.36"
+						},
+						{
+							"category": "EED",
+							"column-1": "9.11"
+						},
+						{
+							"category": "MED",
+							"column-1": "9.09"
+						},
+						{
+							"category": "CHD",
+							"column-1": "9.02"
+						},
+						{
+							"category": "EE",
+							"column-1": "8.98"
+						},
+						{
+							"category": "MnC",
+							"column-1": "8.96"
+						},
+						{
+							"category": "ME",
+							"column-1": "8.71"
+						},
+						{
+							"category": "CH",
+							"column-1": "8.69"
+						},
+						{
+							"category": "MF",
+							"column-1": "8.62"
+						},
+						{
+							"category": "IE",
+							"column-1": "8.58"
+						}
+					]
+				}
+			);
+			AmCharts.makeChart("chartdiv",
+				{
+					"type": "serial",
+					"categoryField": "category",
+					"startDuration": 1,
+					"theme": "default",
+					"categoryAxis": {
+						"gridPosition": "start"
+					},
+					"trendLines": [],
+					"graphs": [
+						{
+							"balloonText": "[[title]] of [[category]]:[[value]]",
+							"fillAlphas": 1,
+							"id": "AmGraph-1",
+							"title": "Incoming",
+							"type": "column",
+							"valueField": "Incoming"
+						},
+						{
+							"balloonText": "[[title]] of [[category]]:[[value]]",
+							"fillAlphas": 1,
+							"id": "AmGraph-2",
+							"title": "Outgoing",
+							"type": "column",
+							"valueField": "Outgoing"
+						}
+					],
+					"guides": [],
+					"valueAxes": [
+						{
+							"id": "ValueAxis-1",
+							"title": "Number of Students"
+						}
+					],
+					"allLabels": [],
+					"balloon": {},
+					"legend": {
+						"useGraphSettings": true
+					},
+					"titles": [
+						{
+							"id": "Title-1",
+							"size": 15,
+							"text": "Department-wise Changes"
+						}
+					],
+					"dataProvider": [
+						{
+							"category": "ME",
+							"Incoming": "14",
+							"Outgoing": "7"
+						},
+						{
+							"category": "EE",
+							"Incoming": "10",
+							"Outgoing": "4"
+						},
+						{
+							"category": "CS",
+							"Incoming": "7",
+							"Outgoing": "0"
+						},
+						{
+							"category": "ECD",
+							"Incoming": "6",
+							"Outgoing": "2"
+						},
+						{
+							"category": "MnC",
+							"Incoming": "5",
+							"Outgoing": "0"
+						},
+						{
+							"category": "MED",
+							"Incoming": "5",
+							"Outgoing": "0"
+						},
+						{
+							"category": "EC",
+							"Incoming": "5",
+							"Outgoing": "0"
+						},
+						{
+							"category": "CSD",
+							"Incoming": "4",
+							"Outgoing": "0"
+						},
+						{
+							"category": "CH",
+							"Incoming": "3",
+							"Outgoing": "5"
+						},
+						{
+							"category": "IE",
+							"Incoming": "2",
+							"Outgoing": "3"
+						},
+						{
+							"category": "EED",
+							"Incoming": "2",
+							"Outgoing": "0"
+						},
+						{
+							"category": "CHD",
+							"Incoming": "2",
+							"Outgoing": "0"
+						},
+						{
+							"category": "MF",
+							"Incoming": "1",
+							"Outgoing": "3"
+						}
+					]
+				}
+			);
+			AmCharts.makeChart("chartdiv3",
+				{
+					"type": "serial",
+					"categoryField": "category",
+					"startDuration": 1,
+					"theme": "default",
+					"categoryAxis": {
+						"gridPosition": "start"
+					},
+					"trendLines": [],
+					"graphs": [
+						{
+							"balloonText": "[[title]] of [[category]]:[[value]]",
+							"fillAlphas": 1,
+							"id": "AmGraph-1",
+							"title": "Incoming",
+							"type": "column",
+							"valueField": "Incoming"
+						},
+						{
+							"balloonText": "[[title]] of [[category]]:[[value]]",
+							"fillAlphas": 1,
+							"id": "AmGraph-2",
+							"title": "Outgoing",
+							"type": "column",
+							"valueField": "Outgoing"
+						}
+					],
+					"guides": [],
+					"valueAxes": [
+						{
+							"id": "ValueAxis-1",
+							"title": "Number of Students"
+						}
+					],
+					"allLabels": [],
+					"balloon": {},
+					"legend": {
+						"useGraphSettings": true
+					},
+					"titles": [
+						{
+							"id": "Title-1",
+							"size": 15,
+							"text": "Department Wise Changes"
+						}
+					],
+					"dataProvider": [
+						{
+							"category": "ME",
+							"Incoming": "14",
+							"Outgoing": "7"
+						},
+						{
+							"category": "EE",
+							"Incoming": "10",
+							"Outgoing": "4"
+						},
+						{
+							"category": "CS",
+							"Incoming": "7",
+							"Outgoing": "0"
+						},
+						{
+							"category": "ECD",
+							"Incoming": "6",
+							"Outgoing": "2"
+						},
+						{
+							"category": "MnC",
+							"Incoming": "5",
+							"Outgoing": "0"
+						},
+						{
+							"category": "MED",
+							"Incoming": "5",
+							"Outgoing": "0"
+						},
+						{
+							"category": "EC",
+							"Incoming": "5",
+							"Outgoing": "0"
+						},
+						{
+							"category": "CSD",
+							"Incoming": "4",
+							"Outgoing": "0"
+						},
+						{
+							"category": "CH",
+							"Incoming": "3",
+							"Outgoing": "5"
+						},
+						{
+							"category": "IE",
+							"Incoming": "2",
+							"Outgoing": "3"
+						},
+						{
+							"category": "EED",
+							"Incoming": "2",
+							"Outgoing": "0"
+						},
+						{
+							"category": "CHD",
+							"Incoming": "2",
+							"Outgoing": "0"
+						},
+						{
+							"category": "MF",
+							"Incoming": "1",
+							"Outgoing": "3"
+						},
+						{
+							"category": "HS",
+							"Incoming": "0",
+							"Outgoing": "2"
+						},
+						{
+							"category": "MT",
+							"Incoming": "0",
+							"Outgoing": "4"
+						},
+						{
+							"category": "CE",
+							"Incoming": "0",
+							"Outgoing": "6"
+						},
+						{
+							"category": "MI",
+							"Incoming": "0",
+							"Outgoing": "4"
+						},
+						{
+							"category": "EX",
+							"Incoming": "0",
+							"Outgoing": "2"
+						},
+						{
+							"category": "AG",
+							"Incoming": "0",
+							"Outgoing": "2"
+						},
+						{
+							"category": "MFD",
+							"Incoming": "0",
+							"Outgoing": "2"
+						},
+						{
+							"category": "MTD",
+							"Incoming": "0",
+							"Outgoing": "2"
+						},
+						{
+							"category": "OENAD",
+							"Incoming": "0",
+							"Outgoing": "1"
+						},
+						{
+							"category": "CED",
+							"Incoming": "0",
+							"Outgoing": "1"
+						},
+						{
+							"category": "AE",
+							"Incoming": "0",
+							"Outgoing": "2"
+						},
+						{
+							"category": "IM",
+							"Incoming": "0",
+							"Outgoing": "3"
+						},
+						{
+							"category": "GG",
+							"Incoming": "0",
+							"Outgoing": "2"
+						},
+						{
+							"category": "OENA",
+							"Incoming": "0",
+							"Outgoing": "3"
+						},
+						{
+							"category": "BTD",
+							"Incoming": "0",
+							"Outgoing": "2"
+						},
+						{
+							"category": "QD",
+							"Incoming": "0",
+							"Outgoing": "1"
+						},
+						{
+							"category": "CY",
+							"Incoming": "0",
+							"Outgoing": "1"
+						},
+						{
+							"category": "BT",
+							"Incoming": "0",
+							"Outgoing": "1"
+						},
+						{
+							"category": "MID",
+							"Incoming": "0",
+							"Outgoing": "1"
+						}
+					]
+				}
+			);
+				AmCharts.makeChart("chartdiv3",
+				{
+					"type": "serial",
+					"categoryField": "category",
+					"startDuration": 1,
+					"categoryAxis": {
+						"gridPosition": "start"
+					},
+					"trendLines": [],
+					"graphs": [
+						{
+							"balloonText": "[[title]] of [[category]]:[[value]]",
+							"fillAlphas": 1,
+							"id": "AmGraph-1",
+							"labelText": "[[value]]",
+							"title": "Outgoing",
+							"type": "column",
+							"valueField": "column-1"
+						}
+					],
+					"guides": [],
+					"valueAxes": [
+						{
+							"id": "ValueAxis-1",
+							"title": "Number of Students"
+						}
+					],
+					"allLabels": [],
+					"balloon": {},
+					"legend": {
+						"useGraphSettings": true
+					},
+					"titles": [
+						{
+							"id": "Title-1",
+							"size": 15,
+							"text": "Outgoing numbers of rest of the departments"
+						}
+					],
+					"dataProvider": [
+						{
+							"category": "HS",
+							"column-1": "2"
+						},
+						{
+							"category": "MT",
+							"column-1": "4"
+						},
+						{
+							"category": "CE",
+							"column-1": "6"
+						},
+						{
+							"category": "MI",
+							"column-1": "4"
+						},
+						{
+							"category": "EX",
+							"column-1": "2"
+						},
+						{
+							"category": "AG",
+							"column-1": "2"
+						},
+						{
+							"category": "MFD",
+							"column-1": "2"
+						},
+						{
+							"category": "MTD",
+							"column-1": "2"
+						},
+						{
+							"category": "OENAD",
+							"column-1": "1"
+						},
+						{
+							"category": "CED",
+							"column-1": "1"
+						},
+						{
+							"category": "AE",
+							"column-1": "2"
+						},
+						{
+							"category": "IM",
+							"column-1": "3"
+						},
+						{
+							"category": "GG",
+							"column-1": "2"
+						},
+						{
+							"category": "OENA",
+							"column-1": "3"
+						},
+						{
+							"category": "BTD",
+							"column-1": "2"
+						}
+					]
+				}
+			);
+		</script>
+	</head>
+	<body>
+		<div id="chartdiv2" style="width: 100%; height: 400px; background-color: #FFFFFF;" ></div>
+		<div id="chartdiv" style="width: 100%; height: 400px; background-color: #FFFFFF;" ></div>
+		<div id="chartdiv3" style="width: 100%; height: 400px; background-color: #FFFFFF;" ></div>
+	</body>
+</html>
